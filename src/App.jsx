@@ -12,7 +12,7 @@ function App() {
       {/* Rendering RecipeContainer inside jsx and incorporating imported recipe data to be passed down to RecipeContainer*/}
       <RecipeContainer recipes={recipes} />
     </>
-  )
+  );
 }
 
 export default App
