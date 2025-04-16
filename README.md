@@ -1,55 +1,12 @@
-# Props Lab
+# React + Vite
 
-## Learning Goals
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- Design and organize React components to display recipes, ingredients, and cooking steps.
-- Use props to pass and manage data between components.
-- Implement interactive UI elements, such as ingredient checklists, to enhance user experience.
-- Apply styling to components using CSS imports.
+Currently, two official plugins are available:
 
-## Lab Deliverables
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 1. Create a React App Using Vite
+## Expanding the ESLint configuration
 
-1. Open your terminal and run: **npm create vite@latest my-react-app**
-2. When prompted:
-   - Choose **React**
-   - Choose **JavaScript**
-3. Navigate into your project folder: **cd my-react-app**
-4. Install dependencies: **npm install**
-5. Start the development server: **npm run dev**
-6. Open your browser and go to **http://localhost:5173/** to view your app
-
----
-
-## 2. Create Components
-
-- Create a Higher-Order component called **RecipeContainer**
-- Create a presentational component called **Recipe**
-
----
-
-## 3. Import and Pass Data Through Props
-
-- Move your data file (e.g. `recipes.js`) into the `src` folder
-- Import the data into `App.jsx`
-- Render the `RecipeContainer` component inside `App`
-- Pass the recipe data to `RecipeContainer` using props
-
----
-
-## 4. Dynamically Render Data
-
-- In `RecipeContainer`, access the recipe data through props
-- Use `.map()` to loop through the recipes and render a `Recipe` component for each item
-- Pass each individual recipe to the `Recipe` component as a prop
-- In `Recipe`, access the data through props and render the content using JSX
-
-5. Style the components
-
-- Style the components however you like, have fun!
-
-## Submission Instructions
-
-1. Push your code to GitHub.
-2. Submit the link to your GitHub repository URL.
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
