@@ -5,8 +5,6 @@ import { recipes } from "./data/data.js"
 import RecipeContainer from "./components/RecipeContainer.jsx"
 
 function App() {
-
-
   return (
     <>
       {/* Rendering RecipeContainer inside jsx and incorporating imported recipe data to be passed down to RecipeContainer*/}

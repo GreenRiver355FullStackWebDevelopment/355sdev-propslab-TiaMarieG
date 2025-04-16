@@ -1,0 +1,12 @@
+.recipe-card h2 {
+    text-decoration: underline;
+}
+
+.recipe-card ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.recipe-card ol {
+    list-style-position: inside;
+}
