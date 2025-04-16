@@ -1,10 +1,9 @@
 // Presentational Component
 // Destructuring props to explicity call name and ingredients
-function Recipe( { name }) {
+function Recipe({ recipe }) {
     return(
         <>
-        <h2>{name}</h2>
-        
+        <h2>{recipe}</h2>
         </>
     )
 }

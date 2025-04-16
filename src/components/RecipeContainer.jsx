@@ -7,7 +7,14 @@ function RecipeContainer({ recipes }) {
         <div>
             {/* Using a map to loop through the recipes and rendering a Recipe component for each */}
             {/* Created a key since an id was not provided with the dataset */}
-            {recipes.map(( recipe, index ) => <Recipe key={`${index}${recipe.name}`} recipe={recipes}/>)}
+            {recipes.map(( recipe, index ) => (
+                <Recipe key={`${index}${recipe.name}`} 
+                recipe={recipe.name}
+                ingredients={recipe.ingredients} 
+                instructions={recipe.instructions}
+                />
+                ))
+            }
         </div>
     );
 }
