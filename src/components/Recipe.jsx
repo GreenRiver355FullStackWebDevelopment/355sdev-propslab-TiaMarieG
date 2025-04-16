@@ -1,8 +1,10 @@
 // Presentational Component
 
-export function Recipe() {
+function Recipe() {
     return(
         <>
         </>
     )
 }
+
+export default Recipe

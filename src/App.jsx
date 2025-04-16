@@ -1,8 +1,8 @@
 import './App.css'
 // Importing data provided by data.js
-import { recipes } from "../data/data.js"
+import { recipes } from "./data/data.js"
 // Importing child RecipeContainer to App.jsx
-import { RecipeContainer } from "./components/RecipeContainer.jsx"
+import RecipeContainer from "./components/RecipeContainer.jsx"
 
 function App() {
 
